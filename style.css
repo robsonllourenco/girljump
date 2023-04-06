@@ -16,7 +16,7 @@
 .sonic {
   bottom: 20px;
   position: absolute;
-  width: 150px;
+  width: 100px;
 }
 
 .jump {
@@ -24,7 +24,7 @@
 }
 
 .eggman {
-  width: 120px;
+  width: 70px;
   position: absolute;
   bottom: 33px;
   right: 0;
