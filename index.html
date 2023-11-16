@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Girl Jump</title>
+  </head>
+  <body>
+    <div class="start-screen">
+      <img class="start-background" src="./Arquivos/start-background.png" alt="Start Background" />
+      <button class="start-button">Iniciar Jogo</button>
+    </div>
+
+    <div class="gameplay" style="display: none;">
+      <span class="score"></span>
+      <img class="sonic" src="./Arquivos/Sonic.gif" alt="Sonic" />
+      <img class="nuvens" src="./Arquivos/nuvens.png" alt="nuvens" />
+      <img class="eggman" src="./Arquivos/Eggman.gif" alt="eggman" />
+      <img class="fundo" src="./Arquivos/Fundo.png" alt="Fundo" />
+      <button class="restart-button" style="display: none;">
+        O monstro te pegou Cecília!<br>
+        Reiniciar o jogo.
+      </button>
+      
+    </div>
+    <audio src="./audio/acerto.mp3" id="somAcerto"></audio>
+    <audio src="./audio/erro.mp3" id="somErro"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
